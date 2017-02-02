@@ -4,19 +4,19 @@ img, embed, object,video {
 
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: #747704;
     font-weight: 300;
 }
 
 
 h2 {
-    font-family: 'VT323', monospace;
+    font-family: "VT323", monospace;
 }
 
 
 .text-muted {
-    color:#BCBBBB;
+    color: #bcbbbb;
 }
 
 

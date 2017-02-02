@@ -8,14 +8,15 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Nunito|Nunito+Sans|Pacifico|Quicksand|Roboto+Slab|Rubik|Slabo+27px|VT323" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+    <!-- main div -->
     <div class="container">
-        <div class="row">
+
+        <!-- header with logo and title -->
+        <header class="row">
             <div class="col-md-6">
                 <img class="title-logo" src="http://placehold.it/100x100" alt="logo">
             </div>
@@ -23,23 +24,31 @@
                 <h1 class="text-thin title-super">Peisen Xue</h1>
                 <h2>Front-end Ninja</h2>
             </div>
-        </div>
-        <div class="row">
+        </header>
+
+        <!-- divider -->
+        <section class="row">
             <div class="col-md-12">
                 <hr>
             </div>
-        </div>
-        <div class="row">
+        </section>
+
+        <!-- center image -->
+        <section class="row">
             <div class="col-md-12">
                 <img src="http://placehold.it/1140x350" class="img-responsive" alt="main">
             </div>
-        </div>
-        <div class="row">
+        </section>
+
+        <!-- header divide -->
+        <section class="row">
             <div class="col-md-12">
                 <h2 class="text-muted">Featured Work</h2>
             </div>
-        </div>
-        <div class="row text-center">
+        </section>
+
+        <!-- row 1 -->
+        <section class="row text-center">
             <div class="col-md-6">
                 <img src="http://placehold.it/555x300" class="img-responsive" data-toggle="modal" data-target="#m1" alt="Project 1">
                 <h3>Portfolio</h3>
@@ -50,8 +59,10 @@
                 <h3>Blogify</h3>
                 <p><a href="http://github.com/">Link to project</a></p>
             </div>
-        </div>
-        <div class="row text-center">
+        </section>
+
+        <!-- row 2 -->
+        <section class="row text-center">
             <div class="col-md-6">
                 <img src="http://placehold.it/555x300" class="img-responsive" data-toggle="modal" data-target="#m3" alt="Project 3">
                 <h3>Appify</h3>
@@ -62,14 +73,18 @@
                 <h3>Appify</h3>
                 <p><a href="http://github.com/">Link to project</a></p>
             </div>
-        </div>
+        </section>
+
+
     </div>
-    <!-- Modal -->
-    <div class="modal fade" id="m1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+
+    <!-- Modals -->
+    <div class="modal fade" id="m1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">My First Project</h4>
+                    <h4 class="modal-title" id="myModalLabel1">My First Project</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="http://placehold.it/555x300" alt="Project 1"> This was my first project in this class. I learned a lot about HTML and CSS.
@@ -80,11 +95,12 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="m2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal fade" id="m2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">My Second Project</h4>
+                    <h4 class="modal-title" id="myModalLabel2">My Second Project</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="http://placehold.it/555x300" alt="Project 2"> This was my first project in this class. I learned a lot about HTML and CSS.
@@ -95,11 +111,12 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="m3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal fade" id="m3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">My Third Project</h4>
+                    <h4 class="modal-title" id="myModalLabel3">My Third Project</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="http://placehold.it/555x300" alt="Project 3"> This was my first project in this class. I learned a lot about HTML and CSS.
@@ -110,11 +127,12 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="m4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal fade" id="m4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">My Fourth Project</h4>
+                    <h4 class="modal-title" id="myModalLabel4">My Fourth Project</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="http://placehold.it/555x300" alt="Project 4"> This was my first project in this class. I learned a lot about HTML and CSS.
@@ -125,6 +143,10 @@
             </div>
         </div>
     </div>
+
+    <!-- delays loading of the script til after the page HTML has been loaded -->
+    <script src=js/jquery-3.1.1.min.js></script>
+    <script src=js/bootstrap.min.js></script>
 </body>
 
 </html>
