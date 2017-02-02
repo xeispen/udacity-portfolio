@@ -384,10 +384,13 @@
   "css": [
     "type.less",
     "grid.less",
+    "forms.less",
+    "navs.less",
+    "navbar.less",
     "modals.less"
   ],
   "js": [
     "modal.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=9c80237a72fc62c2b662ec274ed08e9b"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=60e071d4016a6eb56e7b3a42f89fcea7"
 }
